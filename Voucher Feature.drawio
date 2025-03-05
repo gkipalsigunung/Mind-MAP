@@ -4,25 +4,55 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aDgGIX2eHUsiDJ8qM59B-1" value="Start" style="ellipse;fillColor=green;" vertex="1" parent="1">
-          <mxGeometry x="160" y="50" width="100" height="50" as="geometry" />
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-9" value="Start" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="30" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aDgGIX2eHUsiDJ8qM59B-2" value="Process" style="rounded=1;fillColor=lightblue;" vertex="1" parent="1">
-          <mxGeometry x="160" y="150" width="120" height="60" as="geometry" />
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-10" value="Create Form" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="30" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aDgGIX2eHUsiDJ8qM59B-3" value="Decision" style="rhombus;fillColor=yellow;" vertex="1" parent="1">
-          <mxGeometry x="160" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-11" value="Submit Form to API" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="550" y="30" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aDgGIX2eHUsiDJ8qM59B-4" value="End" style="ellipse;fillColor=red;" vertex="1" parent="1">
-          <mxGeometry x="160" y="390" width="100" height="50" as="geometry" />
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-12" value="Save to Firestore" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="140" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aDgGIX2eHUsiDJ8qM59B-5" edge="1" parent="1" source="aDgGIX2eHUsiDJ8qM59B-1" target="aDgGIX2eHUsiDJ8qM59B-2">
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-13" value="Trigger Node-Red" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="550" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-14" value="Send WhatsApp to Signers" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-15" value="Upload Image to Firebase" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-16" value="Verify All Images" style="rounded=1;fillColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="550" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-17" value="Generate PDF" style="rounded=1;fillColor=#b3b3b3;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="550" y="400" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-18" edge="1" parent="1" source="aDgGIX2eHUsiDJ8qM59B-9" target="aDgGIX2eHUsiDJ8qM59B-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aDgGIX2eHUsiDJ8qM59B-6" edge="1" parent="1" source="aDgGIX2eHUsiDJ8qM59B-2" target="aDgGIX2eHUsiDJ8qM59B-3">
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-19" edge="1" parent="1" source="aDgGIX2eHUsiDJ8qM59B-10" target="aDgGIX2eHUsiDJ8qM59B-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aDgGIX2eHUsiDJ8qM59B-7" edge="1" parent="1" source="aDgGIX2eHUsiDJ8qM59B-3" target="aDgGIX2eHUsiDJ8qM59B-4">
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-20" edge="1" parent="1" source="aDgGIX2eHUsiDJ8qM59B-11" target="aDgGIX2eHUsiDJ8qM59B-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-21" edge="1" parent="1" source="aDgGIX2eHUsiDJ8qM59B-12" target="aDgGIX2eHUsiDJ8qM59B-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-22" edge="1" parent="1" source="aDgGIX2eHUsiDJ8qM59B-13" target="aDgGIX2eHUsiDJ8qM59B-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-23" edge="1" parent="1" source="aDgGIX2eHUsiDJ8qM59B-14" target="aDgGIX2eHUsiDJ8qM59B-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-24" edge="1" parent="1" source="aDgGIX2eHUsiDJ8qM59B-15" target="aDgGIX2eHUsiDJ8qM59B-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-25" edge="1" parent="1" source="aDgGIX2eHUsiDJ8qM59B-16" target="aDgGIX2eHUsiDJ8qM59B-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
