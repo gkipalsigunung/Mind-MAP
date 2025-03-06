@@ -7,10 +7,10 @@
         <mxCell id="aDgGIX2eHUsiDJ8qM59B-9" value="Start" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="133" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aDgGIX2eHUsiDJ8qM59B-10" value="Create Form&#xa;(App)" style="rounded=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-10" value="Create Form&#xa;(App)" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="323" y="50" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aDgGIX2eHUsiDJ8qM59B-11" value="Submit Form &#xa;(End-Point)" style="rounded=1;fillColor=#e3c800;strokeColor=#B09500;dashed=1;dashPattern=8 8;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-11" value="Submit Form &#xa;(End-Point)" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="550" y="120" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XEOHDXe-3Rds1Pl_wQdD-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aDgGIX2eHUsiDJ8qM59B-12" target="aDgGIX2eHUsiDJ8qM59B-17">
@@ -33,10 +33,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aDgGIX2eHUsiDJ8qM59B-13" value="Trigger Node-Red&#xa;(Service)" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-13" value="Trigger Node-Red&#xa;(Service)" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="345" y="270" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aDgGIX2eHUsiDJ8qM59B-14" value="Send WhatsApp to Signers" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-14" value="Send WhatsApp to Signers" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="120" y="270" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cPocxFOdf4c5zaEAgyfB-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aDgGIX2eHUsiDJ8qM59B-15" target="cPocxFOdf4c5zaEAgyfB-21" edge="1">
@@ -65,7 +65,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aDgGIX2eHUsiDJ8qM59B-15" value="Upload Image&#xa;(App)" style="rounded=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-15" value="Upload Image&#xa;(App)" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="120" y="450" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cPocxFOdf4c5zaEAgyfB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="aDgGIX2eHUsiDJ8qM59B-17" target="cPocxFOdf4c5zaEAgyfB-3" edge="1">
@@ -90,7 +90,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aDgGIX2eHUsiDJ8qM59B-17" value="Final Check" style="rounded=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-17" value="Final Check" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="550" y="530" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aDgGIX2eHUsiDJ8qM59B-18" parent="1" source="aDgGIX2eHUsiDJ8qM59B-9" target="aDgGIX2eHUsiDJ8qM59B-10" edge="1">
@@ -139,7 +139,7 @@
         <mxCell id="cPocxFOdf4c5zaEAgyfB-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="cPocxFOdf4c5zaEAgyfB-21" target="aDgGIX2eHUsiDJ8qM59B-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cPocxFOdf4c5zaEAgyfB-21" value="Submit Image URL&#xa;(End-Point)" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
+        <mxCell id="cPocxFOdf4c5zaEAgyfB-21" value="Submit Image URL&#xa;(End-Point)" style="rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="330" y="450" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="cPocxFOdf4c5zaEAgyfB-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" parent="1" source="cPocxFOdf4c5zaEAgyfB-22" target="aDgGIX2eHUsiDJ8qM59B-15" edge="1">
@@ -155,10 +155,10 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cPocxFOdf4c5zaEAgyfB-22" value="Save to Firebase&#xa;(Storage)" style="rounded=1;fillColor=light-dark(#FFFFFF,#1D293B);strokeColor=light-dark(#000000,#5C79A3);" parent="1" vertex="1">
+        <mxCell id="cPocxFOdf4c5zaEAgyfB-22" value="Save to Firebase&#xa;(Storage)" style="rounded=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="120" y="550" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XEOHDXe-3Rds1Pl_wQdD-9" value="Log Error" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#959595;strokeColor=light-dark(#959595,#959595);rounded=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+        <mxCell id="XEOHDXe-3Rds1Pl_wQdD-9" value="Log Error" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
           <mxGeometry x="368" y="210" width="115" height="20" as="geometry" />
         </mxCell>
         <mxCell id="XEOHDXe-3Rds1Pl_wQdD-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.478;entryY=1.096;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aDgGIX2eHUsiDJ8qM59B-13" target="XEOHDXe-3Rds1Pl_wQdD-9">
