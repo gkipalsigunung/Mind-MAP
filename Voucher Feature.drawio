@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Page-1" id="0k0p8xCqQLOHbQBMagzz">
-    <mxGraphModel dx="1086" dy="1012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="987" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,7 +113,7 @@
         <mxCell id="cPocxFOdf4c5zaEAgyfB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="aDgGIX2eHUsiDJ8qM59B-17" target="cPocxFOdf4c5zaEAgyfB-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="cPocxFOdf4c5zaEAgyfB-18" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cPocxFOdf4c5zaEAgyfB-4" vertex="1" connectable="0">
+        <mxCell id="cPocxFOdf4c5zaEAgyfB-18" value="Complete" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cPocxFOdf4c5zaEAgyfB-4" vertex="1" connectable="0">
           <mxGeometry x="-0.15" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -121,19 +121,19 @@
         <mxCell id="cPocxFOdf4c5zaEAgyfB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aDgGIX2eHUsiDJ8qM59B-17" edge="1" target="aDgGIX2eHUsiDJ8qM59B-11">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="780" y="560" />
-              <mxPoint x="780" y="150" />
+              <mxPoint x="790" y="560" />
+              <mxPoint x="790" y="150" />
             </Array>
             <mxPoint x="710" y="535" as="sourcePoint" />
             <mxPoint x="710" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="cPocxFOdf4c5zaEAgyfB-19" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cPocxFOdf4c5zaEAgyfB-8" vertex="1" connectable="0">
+        <mxCell id="cPocxFOdf4c5zaEAgyfB-19" value="Incomplete" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="cPocxFOdf4c5zaEAgyfB-8" vertex="1" connectable="0">
           <mxGeometry x="-0.8463" relative="1" as="geometry">
             <mxPoint x="-3" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aDgGIX2eHUsiDJ8qM59B-17" value="Final Check [Manual]&#xa;(App)" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="aDgGIX2eHUsiDJ8qM59B-17" value="Checking Point [Manual]&#xa;(App)" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="550" y="530" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aDgGIX2eHUsiDJ8qM59B-18" parent="1" source="aDgGIX2eHUsiDJ8qM59B-9" target="aDgGIX2eHUsiDJ8qM59B-10" edge="1">
@@ -198,19 +198,18 @@
         <mxCell id="XEOHDXe-3Rds1Pl_wQdD-28" value="&lt;p&gt;&lt;/p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap;&quot;&gt;API Keylist&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;&lt;ol&gt;&lt;li&gt;&lt;font&gt;nomor&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;nominal&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;jumlahUang&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;keperluan&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;tanggal&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font&gt;ketuabidangmajelispendampingText&lt;/font&gt;&lt;/li&gt;&lt;li&gt;ketuabidangmajelispendampingIMG&lt;/li&gt;&lt;li&gt;&lt;font&gt;ketuakomisipanitiaText&lt;/font&gt;&lt;/li&gt;&lt;li&gt;ketuakomisipanitiaIMG&lt;/li&gt;&lt;li&gt;&lt;font&gt;bendaharamajelisjemaatText&lt;/font&gt;&lt;/li&gt;&lt;li&gt;bendaharamajelisjemaatIMG&lt;/li&gt;&lt;li&gt;&lt;font&gt;pembukuanText&lt;/font&gt;&lt;/li&gt;&lt;li&gt;pembukuanIMG&lt;/li&gt;&lt;li&gt;penerimaText&lt;/li&gt;&lt;li&gt;penerimaIMG&lt;/li&gt;&lt;li&gt;approvalbendaharaMJ&lt;/li&gt;&lt;li&gt;aprrovalbendaharaGereja&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=1;fillColor=none;strokeColor=default;dashed=1;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="820" y="120" width="250" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="eFyWWcBVhBfeOFzs6wwF-3" value="Send Approval&#xa;(Whatsapp)" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="110" y="230" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="eFyWWcBVhBfeOFzs6wwF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="eFyWWcBVhBfeOFzs6wwF-3" target="aDgGIX2eHUsiDJ8qM59B-11">
+        <mxCell id="eFyWWcBVhBfeOFzs6wwF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eFyWWcBVhBfeOFzs6wwF-3" target="aDgGIX2eHUsiDJ8qM59B-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="740" y="140" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="50" y="260" />
-              <mxPoint x="50" y="30" />
-              <mxPoint x="800" y="30" />
-              <mxPoint x="800" y="135" />
+              <mxPoint x="90" y="260" />
+              <mxPoint x="90" y="690" />
+              <mxPoint x="480" y="690" />
+              <mxPoint x="480" y="560" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eFyWWcBVhBfeOFzs6wwF-3" value="Send Approval&#xa;(Whatsapp)" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="110" y="230" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="eFyWWcBVhBfeOFzs6wwF-7" value="Send Updates&#xa;(Whatsapp)" style="rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="110" y="140" width="160" height="60" as="geometry" />
